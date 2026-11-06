@@ -13,6 +13,26 @@ Proyek ini menganalisis data transaksi **Citi Bike di Jersey City** selama perio
 
 ---
 
+## 🗂️ Data Dictionary
+Berikut adalah struktur tabel dari dataset transaksi Jersey City Citi Bike yang digunakan dalam *database* PostgreSQL:
+
+| Nama Kolom | Tipe Data (SQL) | Deskripsi |
+| :--- | :--- | :--- |
+| `ride_id` | VARCHAR | ID unik untuk setiap transaksi penyewaan (Primary Key) |
+| `rideable_type` | VARCHAR | Tipe sepeda yang disewa (*classic_bike* atau *electric_bike*) |
+| `started_at` | TIMESTAMP | Tanggal dan waktu keberangkatan |
+| `ended_at` | TIMESTAMP | Tanggal dan waktu tiba di tujuan |
+| `start_station_name` | VARCHAR | Nama stasiun awal/keberangkatan |
+| `end_station_name` | VARCHAR | Nama stasiun akhir/tujuan |
+| `start_lat` / `start_lng` | NUMERIC | Titik koordinat (Latitude/Longitude) stasiun awal |
+| `end_lat` / `end_lng` | NUMERIC | Titik koordinat (Latitude/Longitude) stasiun akhir |
+| `member_casual` | VARCHAR | Tipe keanggotaan pengguna (*member* atau *casual*) |
+| `duration_minutes` | NUMERIC | Total durasi perjalanan dalam hitungan menit (Hasil *Feature Engineering*) |
+| `start_hour` | INTEGER | Jam keberangkatan dari 0-23 (Hasil *Feature Engineering*) |
+| `is_weekend` | INTEGER | Indikator akhir pekan: 1 untuk Sabtu/Minggu, 0 untuk Hari Kerja (Hasil *Feature Engineering*) |
+
+---
+
 ## 📊 Key Findings & Insights
 1. **Pola Penggunaan & Demografi**: Transaksi didominasi oleh pengguna **Member**, tetapi pengguna **Casual** memiliki rata-rata durasi berkendara jauh lebih lama (~20 menit pada sepeda klasik) dibandingkan Member (~9 menit).
 2. **Jam Sibuk Operasional (Peak Hours)**: Terjadi dua puncak lalu lintas perjalanan (*commuter peaks*) pada hari kerja, yaitu pukul **08.00 AM** (berangkat kerja) dan **17.00 – 18.00 PM** (pulang kerja).
