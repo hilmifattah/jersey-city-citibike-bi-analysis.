@@ -33,6 +33,15 @@ Berikut adalah struktur tabel dari dataset transaksi Jersey City Citi Bike yang 
 
 ---
 
+### 📸 Database Setup & SQL Execution
+*(Cuplikan proses pembuatan skema database dan manipulasi data menggunakan PostgreSQL / pgAdmin 4)*
+![Tampilan pgAdmin](Analisis-Hari-Kerja-VS-Akhir-Pekan.png)
+![Tampilan pgAdmin](Analisis-Jam-Sibuk.png)
+![Tampilan pgAdmin](Preferensi-Jenis-Sepeda.png)
+![Tampilan pgAdmin](Top-5-Rute-Paling-Populer.png)
+
+---
+
 ## 📊 Key Findings & Insights
 1. **Pola Penggunaan & Demografi**: Transaksi didominasi oleh pengguna **Member**, tetapi pengguna **Casual** memiliki rata-rata durasi berkendara jauh lebih lama (~20 menit pada sepeda klasik) dibandingkan Member (~9 menit).
 2. **Jam Sibuk Operasional (Peak Hours)**: Terjadi dua puncak lalu lintas perjalanan (*commuter peaks*) pada hari kerja, yaitu pukul **08.00 AM** (berangkat kerja) dan **17.00 – 18.00 PM** (pulang kerja).
