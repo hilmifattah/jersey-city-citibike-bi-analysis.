@@ -6,9 +6,10 @@ Proyek ini menganalisis data transaksi **Citi Bike di Jersey City** selama perio
 ---
 
 ## 🛠️ Tech Stack & Tools
-* **Data Cleaning & Processing**: Python (Pandas, NumPy) via VS Code
-* **Data Visualization & Dashboarding**: Tableau Public
-* **Version Control & Documentation**: Git & GitHub
+* **Relational Database**: PostgreSQL (pgAdmin 4) untuk penyimpanan data transaksi dan ekstraksi SQL (`database_setup_and_queries.sql`).
+* **Data Cleaning & Processing**: Python (Pandas, NumPy) via VS Code.
+* **Data Visualization & Dashboarding**: Tableau Public.
+* **Version Control & Documentation**: Git & GitHub.
 
 ---
 
@@ -23,14 +24,6 @@ Proyek ini menganalisis data transaksi **Citi Bike di Jersey City** selama perio
 * **Reokasi Armada Terjadwal (*Rebalancing*)**: Melakukan pengisian ulang sepeda listrik di stasiun hub utama (*Grove St PATH*) sebelum pukul 16.30 sore untuk mengantisipasi lonjakan jam pulang kerja.
 * **Strategi Marketing Konversi Member**: Menargetkan pengguna *Casual* yang sering menggunakan sepeda klasik berdurasi panjang dengan promo khusus keanggotaan tahunan.
 * **Pemeliharaan Rutin Unit Listrik**: Menjadwalkan pengisian daya baterai dan *maintenance* sepeda listrik pada jam sepi (23.00 – 05.00) agar armada siap 100% di jam puncak pagi.
-
----
-
-## 🛠️ Tech Stack & Tools
-* **Relational Database**: PostgreSQL (pgAdmin 4) untuk penyimpanan data transaksi dan ekstraksi SQL (`database_setup_and_queries.sql`).
-* **Data Cleaning & Processing**: Python (Pandas, NumPy) via VS Code.
-* **Data Visualization & Dashboarding**: Tableau Public.
-* **Version Control & Documentation**: Git & GitHub.
 
 ---
 
