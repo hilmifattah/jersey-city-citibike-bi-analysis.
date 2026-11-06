@@ -36,13 +36,13 @@ Berikut adalah struktur tabel dari dataset transaksi Jersey City Citi Bike yang 
 ### 📸 Database Setup & SQL Execution
 *(Cuplikan proses pembuatan skema database dan manipulasi data menggunakan PostgreSQL / pgAdmin 4)*
 *(Analisis-Hari-Kerja-VS-Akhir-Pekan)*
-![Tampilan pgAdmin](Analisis-Hari-Kerja-VS-Akhir-Pekan.png)
+![Tampilan pgAdmin](assets/Analisis-Hari-Kerja-VS-Akhir-Pekan.png)
 *(Analisis-Jam-Sibuk)*
-![Tampilan pgAdmin](Analisis-Jam-Sibuk.png)
+![Tampilan pgAdmin](assets/Analisis-Jam-Sibuk.png)
 *(Preferensi-Jenis-Sepeda)*
-![Tampilan pgAdmin](Preferensi-Jenis-Sepeda.png)
+![Tampilan pgAdmin](assets/Preferensi-Jenis-Sepeda.png)
 *(Top-5-Rute-Paling-Populer)*
-![Tampilan pgAdmin](Top-5-Rute-Paling-Populer.png)
+![Tampilan pgAdmin](assets/Top-5-Rute-Paling-Populer.png)
 
 ---
 
